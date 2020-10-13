@@ -1,0 +1,19 @@
+sphere 01 0.9 1 1 1 1 1
+sphere 16 1 1 -42 0.6 1 0.8
+sphere 04 1 1 1 1 1 1
+sphere 07 1 1 1 1 1 1
+sphere 10 1 1 1 1 1 1
+sphere 13 1 1 1 1 1 1
+sphere 16 1 1 1 1 1 1
+sphere 17 1 1 1 1 1 1
+sphere 01 3 1 1 1 1 1
+sphere 02 -4 1 1 1 1 0
+sphere 02 -4 1 1 1 1 0
+translate 4 4 4
+sphere 03 5 1 1 1 1 1
+sphere 04 7 1 1 1 1 1
+sphere 05 9 1 1 1 1 1
+light 0 0 0 1 1 1
+light 5 2 3 1 1 0
+light 30 0 0 1 1 1
+plane 0 -6 0 90 0 1 0 0 

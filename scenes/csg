@@ -1,0 +1,37 @@
+ambiant 0
+
+light 2 -1 0 1 1 0
+light 4 -1 0 0 1 0
+light 4 1 0 1 0 0
+light 2 1 0 0 0 1
+light 16 6 25 0 0 1
+
+	plane 0 0 -4 0 -90 1 1 1
+	sphere 6 6 -4 2 1 1 1 invert
+section 2 specular 32 1024
+
+	sphere 0 0 -4.5 2
+		1 1 1 specular 32 1024
+	sphere -1 -3 -3.5 2
+		1 1 1 specular 8 256
+	sphere 2 -5 -2.5 4
+		1 1 1 specular 8 256
+section 3 texture 2 1 1
+
+	cone 20 10 10 0 90 30 1 1 .8
+	sphere 19 9 7 2 1 1 .8 invert
+	plane 20 10 24 0 -90 1 1 .8
+section 3 specular 32 256 texture 2 1 1
+
+sphere -4 0 0 .5 1 1 1
+sphere -5 0 0 .5 1 0 0
+texture 6 1 1
+union 2
+
+plane .5 0 0 0 0 1 1 1 plane 0 .5 0 90 0 1 1 1 plane -.5 0 0 180 0 1 1 1 plane 0 -.5 0 270 0 1 1 1 plane 0 0 .5 0 -90 1 1 1 plane 0 0 -.5 0 90 1 1 1 section 6
+scale 3 3 3 translate 9 -2 -2
+plane .5 0 0 0 0 1 1 1 plane 0 .5 0 90 0 1 1 1 plane -.5 0 0 180 0 1 1 1 plane 0 -.5 0 270 0 1 1 1 plane 0 0 .5 0 -90 1 1 1 plane 0 0 -.5 0 90 1 1 1 section 6
+scale 4 1 1 translate 9 -2 -2 invert
+section 2
+material 0 0 1.0
+damier .5

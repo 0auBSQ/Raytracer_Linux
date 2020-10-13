@@ -1,0 +1,16 @@
+light 0 0 3 1 1 0
+light 4 -4 0 1 0 0
+light 4 2 0 0 0 1
+
+sphere 0 0 0 3 1 1 1
+plane 0 0 2 0 -90 1 1 1
+plane 0 0 -2 0 90 1 1 1
+plane 0 2 0 90 0 1 1 1
+plane 0 -2 0 -90 0 1 1 1
+plane 2 0 0 0 0 1 1 1
+plane -2 0 0 180 0 1 1 1
+section 7
+translate 4 -4 0
+
+dice 1 1 1
+translate 4 2 0
