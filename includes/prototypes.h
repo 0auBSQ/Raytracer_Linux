@@ -19,7 +19,7 @@
 # include <fcntl.h>
 # include "defaults.h"
 # include "types.h"
-# include "../minilibx_macos/mlx.h"
+# include "../minilib-linux/mlx.h"
 
 t_vec3			v3(t_scal x, t_scal y, t_scal z);
 t_vec3			v3add(t_vec3 a, t_vec3 b);
